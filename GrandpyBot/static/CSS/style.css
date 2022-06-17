@@ -1,0 +1,99 @@
+ .flex-container {
+    display: flex;
+    align-items: flex-start; /* Utilisez d’autres valeurs pour voir le résultat */
+    background-color: #1c87c9;
+
+}
+
+
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+.chatbot {
+    width: 50%;
+    height:800px;
+    padding: 5px 0;
+    margin: 20px;
+    background-color: #EFEFEF;
+    text-align: center;
+    font-size: 35px;
+    border-radius: 25px;
+    border: 8px solid #D1D1D1;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.conversation {
+    /*background-color: #C0A080;*/
+    height: 100%;
+    margin: 20px;
+
+}
+
+div.userentry {
+    /*background-color: #7882A4;*/
+    height: 50px;
+    margin: 5px 20px 5px 20px;
+    display: flex;
+}
+
+form.userentry {
+
+}
+
+.userentrytext {
+    width: 100%;
+    height: 40px;
+    margin-right: 5px;
+    border-radius: 25px;
+    border: 2px solid #D1D1D1;
+    padding-left: 20px;
+}
+
+.userentrybutton {
+    width: 100px;
+    border-radius: 25px;
+    border: 2px solid #D1D1D1;
+}
+
+#botmessage {
+    width: max-content;
+    max-width: 50%;
+    height: max-content;
+    background-color: #7882A4;
+    margin-top: 20px;
+    text-align: left;
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#usermessage {
+    width: max-content;
+    max-width: 50%;
+    height: max-content;
+    background-color: #C0A080;
+    margin-top: 20px;
+    float: right;
+    text-align: left;
+    border-radius: 25px;
+    padding-left: 15px;
+}
+
+#loader {
+  border: 8px solid #f3f3f3; /* Light grey */
+  border-top: 8px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
