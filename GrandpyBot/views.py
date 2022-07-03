@@ -40,7 +40,7 @@ def process():
             summary = str(apiMng.parse_wiki_article(articleId)["query"]["pages"][str(articleId)]["extract"])
             result["url"] = place["url"]
             result["summary"] = grandpa_sentences[randomSentence] + summary
-    time.sleep(4)
+    time.sleep(2)
     return result
 
 if __name__ == "__main__":
