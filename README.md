@@ -1,6 +1,7 @@
 # GrandPy-Bot 
 ## Global Information
-This project is a chatbot. You can ask him the question "où se trouve" followed by different locations as : 
+This project is a chatbot. You can ask him the question "où se trouve" followed by different locations
+and the question mark "?"as : 
 
 - "Où se trouve Paris ?"
 - "Où se trouve Morlaix ?"

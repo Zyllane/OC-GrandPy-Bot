@@ -54,7 +54,7 @@ class ApiManager:
 
     def parse_wiki_article(self, pageid):
         """
-
+        Query the summary from the given pageid on wikipedia
 
         :param pageid:
         :return:

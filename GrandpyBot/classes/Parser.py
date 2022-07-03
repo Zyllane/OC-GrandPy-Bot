@@ -2,12 +2,9 @@ import re
 
 
 class Parser:
-    """
-
-    """
     def parse(self, entry):
         """
-
+        Parse the user input in parameter
         :param entry:
         :return:
         """

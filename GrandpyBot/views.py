@@ -16,12 +16,21 @@ grandpa_sentences = ['Ca me rappelle quelque chose... Oui ça me revient! ',
                      'Ma foi Damien, je parie que tu ne la connaissais pas celle-là! ',
                      'J\ai trouvé cet article sur Wikipédia. Tu connais ce site? ']
 
+
 @app.route('/')
 def index():
+    """
+        default route of the application
+    """
     return render_template("home.html")
+
 
 @app.route('/process', methods=["POST"])
 def process():
+    """
+        called by the front in main.js
+        process the userentry and send to the front the different results of the user search (map url, bot message...)
+    """
     result = {
         "url": "",
         "summary": ""
